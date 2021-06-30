@@ -1,0 +1,32 @@
+import java.math.BigDecimal;
+import java.util.ArrayList;
+
+public class Recursao {
+    private ArrayList<BigDecimal> produtos1; 
+    private ArrayList<BigDecimal> quantidade = new ArrayList<BigDecimal>();
+    
+    
+
+    public Recursao() {
+        this.produtos1 = new ArrayList<BigDecimal>();
+        this.quantidade = new ArrayList<BigDecimal>();
+    }
+
+    public void adiciona() {
+    	produtos1.add(new BigDecimal(10));
+    	produtos1.add(new BigDecimal(20));
+    	produtos1.add(new BigDecimal(30));
+    	quantidade.add(new BigDecimal(10));
+    	quantidade.add(new BigDecimal(20));
+    	quantidade.add(new BigDecimal(30));
+    }
+    
+	public BigDecimal total(int index, BigDecimal valor) {
+    	BigDecimal preco = new BigDecimal(0);
+    	if(index == (produtos1.size() + 1)) {
+    		return preco;
+    	}
+        return preco;
+    }
+	
+}

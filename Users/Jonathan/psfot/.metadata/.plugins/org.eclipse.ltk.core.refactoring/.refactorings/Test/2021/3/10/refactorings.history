@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;recursao&apos; to &apos;Recursao&apos;&#x0D;&#x0A;- Original project: &apos;Test&apos;&#x0D;&#x0A;- Original element: &apos;recursao&apos;&#x0D;&#x0A;- Renamed element: &apos;Recursao&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;recursao&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{recursao.java[recursao" matchStrategy="1" name="Recursao" qualified="false" references="true" similarDeclarations="false" stamp="1614798413344" textual="false" version="1.0"/>
+</session>

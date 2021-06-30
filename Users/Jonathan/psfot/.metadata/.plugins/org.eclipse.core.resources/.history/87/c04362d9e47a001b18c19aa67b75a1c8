@@ -1,0 +1,9 @@
+public class test {
+	public static void main(String[] args) {
+	    int produtos[][] = new int[2][100];
+	    produtos[0][1] = 4;
+	    for(int i = 0; i < produtos.length; i++) {
+			System.out.println("minha picaaaa");
+	    }
+	}
+}

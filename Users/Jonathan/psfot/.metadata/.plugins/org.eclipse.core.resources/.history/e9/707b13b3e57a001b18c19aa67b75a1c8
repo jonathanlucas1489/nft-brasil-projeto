@@ -1,0 +1,13 @@
+public class test {
+	public static void main(String[] args) {
+	    int produtos[][] = new int[100][2];
+	    produtos[1][1] = 4;
+	    for(int i = 0; i < produtos.length; i++) {
+	    	 for(int j = 0; j < produtos[i].length; j++) {
+	 			System.out.println(produtos[i][j]); 
+	    	 }
+	    }
+	}
+}
+
+	
